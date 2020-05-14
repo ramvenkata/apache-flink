@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.practice.flink.data.stream.server;
+package org.practice.flink;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +12,7 @@ import java.net.Socket;
  * @author Ramesh
  *
  */
-public class StateDataStream {
+public class SampleDataStream {
 
 	/**
 	 * @param args

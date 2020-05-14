@@ -33,7 +33,8 @@ public class StateDemo {
 			}
 		}).keyBy(0).flatMap(new StatefulMap());
 		
-		resultStream.writeAsText("programs/state/state_result_stream", WriteMode.OVERWRITE);
+		resultStream.print();
+		//writeAsText("programs/state/state_result_stream", WriteMode.OVERWRITE);
 		
 		environment.execute();
 

@@ -1,0 +1,36 @@
+https://medium.com/smart-ad-monetization-platform/custom-sources-and-sinks-with-flink-ae00e8502b0
+https://www.uni-weimar.de/fileadmin/user/fak/medien/professuren/Webis/teaching/ss16/big-data-seminar/short-talk-flink.pdf
+https://www.digitale-technologien.de/DT/Redaktion/DE/Downloads/Publikation/smart-data-walther-flink-streaming.pdf?__blob=publicationFile&v=2
+
+http://boss.dima.tu-berlin.de/media/BOSS16-Tutorial-flink.pdf
+
+Books
+https://github.com/vaquarkhan/flink-books
+http://www.k6k4.com/download/resource/src/p06/aatamqymo1548733739106.pdf
+https://cdn2.hubspot.net/hubfs/4757017/Ververica/Docs/Introduction_to_Apache_Flink_book_9781491998809.pdf
+
+
+
+10 Basic Cryptography
+https://www.youtube.com/watch?v=vk3py9M2IfE&list=PLSNNzog5eyduN6o4e6AKFHekbH5-37BdV
+
+How SSL certificate works?
+https://www.youtube.com/watch?v=33VYnE7Bzpk
+
+Kerberos - authentication protocol
+https://www.youtube.com/watch?v=_44CHD3Vx-0
+
+
+Executing Flink Program
+=======================
+$ cd /cygdrive/c/Root/View/Installations/flink-1.9.2
+$ bin/start-cluster.sh
+$ bin/flink run programs/state/state_demo.jar
+$ bin/flink run ./../../GIT/feature-branches/flink-quickstart-java/target/flink-quickstart-java-0.0.1-SNAPSHOT.jar
+
+C:\Users\Ramesh\Downloads\ip-data.txt
+
+
+
+https://www.ververica.com/blog/how-apache-flink-manages-kafka-consumer-offsets
+https://www.slideshare.net/robertmetzger1/clickthrough-example-for-flinks-kafkaconsumer-checkpointing

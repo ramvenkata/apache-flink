@@ -44,8 +44,7 @@ public class StatefulMap extends RichFlatMapFunction<Tuple2<Long, String>, Long>
 
 	public void open(Configuration conf) {
 		ValueStateDescriptor<Long> descriptor = new ValueStateDescriptor<Long>("sum",
-				TypeInformation.of(new TypeHint<Long>() {
-				}), 0L);
+				Long.class, 0L);
 		sum = getRuntimeContext().getState(descriptor);
 
 		ValueStateDescriptor<Long> descriptor2 = new ValueStateDescriptor<Long>("count",
